@@ -2,7 +2,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ Mohon tunggu sebentar  @user`
 }
 exports.ok = () => {
     return `✅ Done. Ok desu~`
@@ -698,7 +698,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}rose
 
 ╭─❒ 「 TqTo 」 
-├ ZeeoneOfc
+├ All 
 ├ Penyedia Module
 ╰❒ And All Support
     `
