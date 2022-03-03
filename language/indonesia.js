@@ -782,7 +782,6 @@ exports.info = (prefix) =>{
 	return`╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
 ├ ${prefix}rules
-├ ${prefix}sc
 ├ ${prefix}ping
 ├ ${prefix}runtime
 ├ ${prefix}botstatus
@@ -1364,16 +1363,7 @@ return`╭─❒ 「 Random Cewe 」
 
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ Penyedia Module
+├ All Pembuat SC
 ╰❒ And All Support
 `
 }
