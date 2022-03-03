@@ -2,55 +2,55 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar  @user`
+    return `⏳ *_Mohon tunggu sebentar Maszeh_*`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ *_Done. Ok Maszeh_*`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ *_Fitur Sedang Error Maszeh_*`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ *_Link nya error Maszeh_*`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `*_Silahkan pilih media yang ingin kamu download Maszeh_*`
 }
 exports.replyImg = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
+    return `*_Kirim/Reply Foto Dengan Caption ${prefix + command}_*`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `*_Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*_*.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `❎ *_Harap masukkan pesan yang ingin disampaikan Maszeh!_*`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎ *_Command *${cmd}* tidak terdaftar di *${prefix}allmenu*_*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ *_Command ini khusus Owner Maszeh_*`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️*_Sudah selesai, Owner-_*`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  *_Command ini hanya bisa digunakan di dalam grup Maszeh!_*`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  *_Command ini hanya bisa digunakan oleh admin grup Maszeh!_*`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `*_Kode tidak valid Maszeh!_*`
 }
 
 exports.listBlock = (blockNumber) => {
