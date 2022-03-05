@@ -15,7 +15,7 @@ exports.erorLink = () => {
     return `⚠️ *_Link nya error Maszeh_*`
 }
 exports.media = () => {
-    return `*_Silahkan pilih media yang ingin kamu download Maszeh_*`
+    return `Silahkan pilih media yang ingin kamu download Maszeh`
 }
 exports.replyImg = (prefix, command) => {
     return `*_Kirim/Reply Foto Dengan Caption ${prefix + command}_*`
